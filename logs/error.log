@@ -1,0 +1,1711 @@
+2024-12-03 08:54:57 error: [Cake\Http\Exception\MissingControllerException] Controller class `Users` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Users',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/add
+Client IP: 127.0.0.1
+2024-12-03 08:56:46 error: [Cake\Controller\Exception\MissingActionException] Action `UsersController::login()` could not be found, or is not accessible. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/login?redirect=%2Fusers
+Client IP: 127.0.0.1
+2024-12-03 08:56:55 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 358
+Stack Trace:
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:165
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/edit/1
+Referer URL: http://projetphp.test/users/edit/1
+Client IP: 127.0.0.1
+2024-12-03 09:04:17 error: [Cake\Controller\Exception\MissingComponentException] Component class `RequestHandlerComponent` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php on line 124
+Exception Attributes: array (
+  'class' => 'RequestHandlerComponent',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Core/ObjectRegistry.php:111
+- CORE/src/Controller/Controller.php:285
+- APP/Controller/AppController.php:46
+- CORE/src/Controller/Controller.php:238
+- [internal]:??
+- CORE/src/Controller/ControllerFactory.php:111
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/login?redirect=%2Fusers
+Client IP: 127.0.0.1
+2024-12-03 09:04:18 error: [Cake\Controller\Exception\MissingComponentException] Component class `RequestHandlerComponent` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php on line 124
+Exception Attributes: array (
+  'class' => 'RequestHandlerComponent',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Core/ObjectRegistry.php:111
+- CORE/src/Controller/Controller.php:285
+- APP/Controller/AppController.php:46
+- CORE/src/Controller/Controller.php:238
+- [internal]:??
+- CORE/src/Controller/ControllerFactory.php:111
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/login
+Client IP: 127.0.0.1
+2024-12-03 09:04:21 error: [Cake\Controller\Exception\MissingComponentException] Component class `RequestHandlerComponent` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php on line 124
+Exception Attributes: array (
+  'class' => 'RequestHandlerComponent',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Core/ObjectRegistry.php:111
+- CORE/src/Controller/Controller.php:285
+- APP/Controller/AppController.php:46
+- CORE/src/Controller/Controller.php:238
+- [internal]:??
+- CORE/src/Controller/ControllerFactory.php:111
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/login
+Client IP: 127.0.0.1
+2024-12-03 09:04:59 error: [Cake\Http\Exception\MissingControllerException] Controller class `Articles` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /articles
+Referer URL: http://projetphp.test/users/login
+Client IP: 127.0.0.1
+2024-12-03 09:06:24 error: [Cake\Http\Exception\MissingControllerException] Controller class `Lougout` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Lougout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /lougout
+Client IP: 127.0.0.1
+2024-12-03 09:07:34 error: [Cake\Controller\Exception\MissingActionException] Action `LougoutController::index()` could not be found, or is not accessible. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 483
+Exception Attributes: array (
+  'controller' => 'LougoutController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:161
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /lougout
+Client IP: 127.0.0.1
+2024-12-03 09:07:49 error: [Cake\Http\Exception\MissingControllerException] Controller class `Lougout` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Lougout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /lougout
+Client IP: 127.0.0.1
+2024-12-03 09:15:52 error: [Cake\Http\Exception\MissingControllerException] Controller class `Lougout` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Lougout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /lougout
+Client IP: 127.0.0.1
+2024-12-03 09:15:59 error: [Cake\Http\Exception\MissingControllerException] Controller class `Login` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /login
+Client IP: 127.0.0.1
+2024-12-03 09:17:11 error: [Cake\Http\Exception\MissingControllerException] Controller class `Login` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /login
+Client IP: 127.0.0.1
+2024-12-03 09:17:11 error: [Cake\Http\Exception\MissingControllerException] Controller class `Lougout` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Lougout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /lougout
+Client IP: 127.0.0.1
+2024-12-03 09:17:12 error: [Cake\Http\Exception\MissingControllerException] Controller class `Articles` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /articles
+Referer URL: http://projetphp.test/users/login
+Client IP: 127.0.0.1
+2024-12-03 09:17:12 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table `requests`. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Query/SelectQuery.php on line 604
+Stack Trace:
+- CORE/src/ORM/Table.php:1591
+- ROOT/vendor/cakephp/debug_kit/src/Controller/RequestsController.php:60
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /debug-kit/toolbar/cdf6a908-79a9-46d7-a74e-3aecc020bacb
+Referer URL: http://projetphp.test/articles
+Client IP: 127.0.0.1
+2024-12-03 09:24:05 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Referer URL: http://projetphp.test/users/login
+Client IP: 127.0.0.1
+2024-12-03 09:34:11 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/add
+Referer URL: http://projetphp.test/users/login
+Client IP: 127.0.0.1
+2024-12-03 09:35:55 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/add
+Referer URL: http://projetphp.test/users/login
+Client IP: 127.0.0.1
+2024-12-03 09:36:10 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 09:36:16 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 09:36:23 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 09:39:52 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 09:40:46 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 09:40:53 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 09:40:58 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 09:41:02 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 09:41:04 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 09:41:08 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 09:41:13 error: [Cake\Http\Exception\MissingControllerException] Controller class `Home` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'Home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:77
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /home
+Client IP: 127.0.0.1
+2024-12-03 09:41:51 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 09:42:39 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /
+Client IP: 127.0.0.1
+2024-12-03 13:36:08 error: [Error] Call to undefined method App\Controller\UsersController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/AppController.php on line 62
+Stack Trace:
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:696
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Referer URL: http://projetphp.test/users/login
+Client IP: 127.0.0.1
+2024-12-03 13:37:59 error: [Error] Call to undefined method App\Controller\UsersController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/AppController.php on line 62
+Stack Trace:
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:696
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Referer URL: http://projetphp.test/users/login
+Client IP: 127.0.0.1
+2024-12-03 13:38:01 error: [Error] Call to undefined method App\Controller\UsersController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/AppController.php on line 62
+Stack Trace:
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:696
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+2024-12-03 13:38:44 error: [Error] Call to undefined method App\Controller\UsersController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/AppController.php on line 66
+Stack Trace:
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:696
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+2024-12-03 13:38:45 error: [Error] Call to undefined method App\Controller\UsersController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/AppController.php on line 66
+Stack Trace:
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:696
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+2024-12-03 13:39:52 error: [Error] Call to a member function find() on null in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/AppController.php on line 68
+Stack Trace:
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:696
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+2024-12-03 13:39:53 warning: Unable to emit headers. Headers sent in file=/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-03 13:39:53 warning: Cannot modify header information - headers already sent by (output started at /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-03 13:39:53 warning: Cannot modify header information - headers already sent by (output started at /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-03 13:39:53 warning: Cannot modify header information - headers already sent by (output started at /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-03 13:39:54 error: [Error] Call to a member function find() on null in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/AppController.php on line 68
+Stack Trace:
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:696
+- CORE/src/Controller/Controller.php:514
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+2024-12-03 13:39:54 warning: Unable to emit headers. Headers sent in file=/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-03 13:39:54 warning: Cannot modify header information - headers already sent by (output started at /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-03 13:39:54 warning: Cannot modify header information - headers already sent by (output started at /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-03 13:39:54 warning: Cannot modify header information - headers already sent by (output started at /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 148
+Cake\Http\Server->emit() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-03 14:44:44 error: [Error] Call to undefined method App\Controller\UsersController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/AppController.php on line 46
+Stack Trace:
+- CORE/src/Controller/Controller.php:238
+- [internal]:??
+- CORE/src/Controller/ControllerFactory.php:111
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Referer URL: http://projetphp.test/users/view/1
+Client IP: 127.0.0.1
+2024-12-03 14:50:19 error: [Error] Call to undefined method App\Controller\UsersController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/AppController.php on line 46
+Stack Trace:
+- CORE/src/Controller/Controller.php:238
+- [internal]:??
+- CORE/src/Controller/ControllerFactory.php:111
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Referer URL: http://projetphp.test/users/view/1
+Client IP: 127.0.0.1
+2024-12-03 14:50:20 error: [Error] Call to undefined method App\Controller\UsersController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/AppController.php on line 46
+Stack Trace:
+- CORE/src/Controller/Controller.php:238
+- [internal]:??
+- CORE/src/Controller/ControllerFactory.php:111
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+2024-12-10 05:07:44 error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [2002] Connection refused in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Driver.php on line 202
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [2002] Connection refused',
+)
+Stack Trace:
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:51
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:53
+- CORE/src/Database/Connection.php:379
+- CORE/src/ORM/Table.php:545
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:201
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1759
+- CORE/src/ORM/Table.php:1296
+- CORE/src/ORM/Table.php:2810
+- CORE/src/ORM/Table.php:2830
+- APP/Controller/UsersController.php:138
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] Connection refused in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Driver.php on line 191
+Stack Trace:
+- CORE/src/Database/Driver.php:191
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Driver.php:200
+- CORE/src/Database/Driver/Mysql.php:158
+- CORE/src/Database/Schema/SchemaDialect.php:51
+- CORE/src/Database/Driver/Mysql.php:204
+- CORE/src/Database/Schema/Collection.php:53
+- CORE/src/Database/Connection.php:379
+- CORE/src/ORM/Table.php:545
+- CORE/src/ORM/Query/CommonQueryTrait.php:48
+- CORE/src/ORM/Query/SelectQuery.php:201
+- CORE/src/ORM/Query/QueryFactory.php:34
+- CORE/src/ORM/Table.php:1759
+- CORE/src/ORM/Table.php:1296
+- CORE/src/ORM/Table.php:2810
+- CORE/src/ORM/Table.php:2830
+- APP/Controller/UsersController.php:138
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/reset-password-request
+Referer URL: http://projetphp.test/users/reset-password-request
+Client IP: 127.0.0.1
+2024-12-10 07:16:19 error: [Cake\Http\Exception\MissingControllerException] Controller class `AppleTouchIconPrecomposed.png` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'AppleTouchIconPrecomposed.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:320
+- CORE/src/Controller/ControllerFactory.php:75
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:159
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /apple-touch-icon-precomposed.png
+Client IP: 127.0.0.1
+2024-12-10 07:16:19 error: [Cake\Http\Exception\MissingControllerException] Controller class `AppleTouchIcon.png` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'AppleTouchIcon.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:320
+- CORE/src/Controller/ControllerFactory.php:75
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:159
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /apple-touch-icon.png
+Client IP: 127.0.0.1
