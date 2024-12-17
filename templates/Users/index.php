@@ -6,6 +6,7 @@
 ?>
 <div class="users index content">
     <?= $this->Html->link(__('Nouvel utilisateur'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    <?= $this->Html->css(['sidebar']) ?>
     <h3><?= __('Utilisateurs') ?></h3>
     <div class="table-responsive">
         <table>

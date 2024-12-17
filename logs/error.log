@@ -1709,3 +1709,829 @@ Stack Trace:
 
 Request URL: /apple-touch-icon.png
 Client IP: 127.0.0.1
+2024-12-10 08:29:46 error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table `requests`. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Query/SelectQuery.php on line 604
+Stack Trace:
+- CORE/src/ORM/Table.php:1591
+- ROOT/vendor/cakephp/debug_kit/src/Controller/RequestsController.php:60
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /debug-kit/toolbar/dad0280e-79cf-4a83-ae4b-40788efdaee2
+Referer URL: http://projetphp.test/users
+Client IP: 127.0.0.1
+2024-12-10 09:38:39 error: [Error] Call to undefined method App\Controller\SleepTrackersController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackersController.php on line 11
+Stack Trace:
+- CORE/src/Controller/Controller.php:238
+- [internal]:??
+- CORE/src/Controller/ControllerFactory.php:111
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /sleep-trackers
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+2024-12-10 09:41:11 error: [Error] Call to undefined method App\Controller\SleepTrackersController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackersController.php on line 11
+Stack Trace:
+- CORE/src/Controller/Controller.php:238
+- [internal]:??
+- CORE/src/Controller/ControllerFactory.php:111
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /sleep-trackers
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+2024-12-10 09:43:08 error: [Error] Call to undefined method App\Controller\SleepTrackersController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackersController.php on line 13
+Stack Trace:
+- CORE/src/Controller/Controller.php:238
+- [internal]:??
+- CORE/src/Controller/ControllerFactory.php:111
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /sleep-trackers
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+2024-12-10 09:58:49 error: [Error] Call to undefined method App\Controller\SleepTrackerController::loadModel() in /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php on line 14
+Stack Trace:
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+2024-12-10 10:07:41 error: [Cake\Database\Exception\QueryException] SQLSTATE[HY000]: General error: 1364 Field 'date' doesn't have a default value in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Driver.php on line 383
+Stack Trace:
+- CORE/src/Database/Driver.php:359
+- CORE/src/Database/Driver/Mysql.php:183
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:649
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- APP/Controller/SleepTrackerController.php:34
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'date' doesn't have a default value in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 146
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:146
+- CORE/src/Database/Driver.php:341
+- CORE/src/Database/Driver/Mysql.php:183
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:649
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- APP/Controller/SleepTrackerController.php:34
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /sleep-tracker/add
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+2024-12-10 10:16:24 error: [Cake\Database\Exception\QueryException] SQLSTATE[HY000]: General error: 1364 Field 'bedtime' doesn't have a default value in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Driver.php on line 383
+Stack Trace:
+- CORE/src/Database/Driver.php:359
+- CORE/src/Database/Driver/Mysql.php:183
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:649
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- APP/Controller/SleepTrackerController.php:36
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'bedtime' doesn't have a default value in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 146
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:146
+- CORE/src/Database/Driver.php:341
+- CORE/src/Database/Driver/Mysql.php:183
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:649
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- APP/Controller/SleepTrackerController.php:36
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /sleep-tracker/add
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+2024-12-10 10:20:51 error: [Cake\Database\Exception\QueryException] SQLSTATE[HY000]: General error: 1364 Field 'morning_score' doesn't have a default value in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Driver.php on line 383
+Stack Trace:
+- CORE/src/Database/Driver.php:359
+- CORE/src/Database/Driver/Mysql.php:183
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:649
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- APP/Controller/SleepTrackerController.php:40
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'morning_score' doesn't have a default value in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 146
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:146
+- CORE/src/Database/Driver.php:341
+- CORE/src/Database/Driver/Mysql.php:183
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:649
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- APP/Controller/SleepTrackerController.php:40
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /sleep-tracker/add
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+2024-12-10 10:21:01 error: [Cake\Database\Exception\QueryException] SQLSTATE[HY000]: General error: 1364 Field 'morning_score' doesn't have a default value in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Driver.php on line 383
+Stack Trace:
+- CORE/src/Database/Driver.php:359
+- CORE/src/Database/Driver/Mysql.php:183
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:649
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- APP/Controller/SleepTrackerController.php:40
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'morning_score' doesn't have a default value in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 146
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:146
+- CORE/src/Database/Driver.php:341
+- CORE/src/Database/Driver/Mysql.php:183
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:649
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- APP/Controller/SleepTrackerController.php:40
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /sleep-tracker/add
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+2024-12-10 10:21:37 error: [Cake\Database\Exception\QueryException] SQLSTATE[HY000]: General error: 1364 Field 'morning_score' doesn't have a default value in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Driver.php on line 383
+Stack Trace:
+- CORE/src/Database/Driver.php:359
+- CORE/src/Database/Driver/Mysql.php:183
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:649
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- APP/Controller/SleepTrackerController.php:40
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Caused by: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'morning_score' doesn't have a default value in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Database/Statement/Statement.php on line 146
+Stack Trace:
+- CORE/src/Database/Statement/Statement.php:146
+- CORE/src/Database/Driver.php:341
+- CORE/src/Database/Driver/Mysql.php:183
+- CORE/src/Database/Connection.php:280
+- CORE/src/Core/Retry/CommandRetry.php:71
+- CORE/src/Database/Connection.php:280
+- CORE/src/Database/Query.php:223
+- CORE/src/ORM/Table.php:2185
+- CORE/src/ORM/Table.php:2078
+- CORE/src/ORM/Table.php:1973
+- CORE/src/ORM/Table.php:1604
+- CORE/src/Database/Connection.php:649
+- CORE/src/ORM/Table.php:1604
+- CORE/src/ORM/Table.php:1972
+- APP/Controller/SleepTrackerController.php:40
+- CORE/src/Controller/Controller.php:503
+- CORE/src/Controller/ControllerFactory.php:166
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:162
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /sleep-tracker/add
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+2024-12-10 12:39:19 warning: Undefined variable $sleepTracker
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/View/View.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/View/View.php, line 1188
+Cake\View\View->_evaluate() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/View/View.php, line 1145
+Cake\View\View->_render() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 710
+Cake\Controller\Controller->render() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 514
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 12:39:19 warning: foreach() argument must be of type array|object, null given
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/View/View.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/View/View.php, line 1188
+Cake\View\View->_evaluate() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/View/View.php, line 1145
+Cake\View\View->_render() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 710
+Cake\Controller\Controller->render() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 514
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-17 17:21:30 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:159
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Client IP: 127.0.0.1
+2024-12-17 17:21:30 error: [Cake\Http\Exception\MissingControllerException] Controller class `AppleTouchIconPrecomposed.png` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'AppleTouchIconPrecomposed.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:320
+- CORE/src/Controller/ControllerFactory.php:75
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:159
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /apple-touch-icon-precomposed.png
+Client IP: 127.0.0.1
+2024-12-17 17:21:30 error: [Cake\Http\Exception\MissingControllerException] Controller class `AppleTouchIcon.png` could not be found. in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 335
+Exception Attributes: array (
+  'controller' => 'AppleTouchIcon.png',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- CORE/src/Controller/ControllerFactory.php:320
+- CORE/src/Controller/ControllerFactory.php:75
+- CORE/src/Http/BaseApplication.php:360
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:159
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:78
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /apple-touch-icon.png
+Client IP: 127.0.0.1
+2024-12-17 17:21:35 error: [Authentication\Authenticator\UnauthenticatedException] Authentication is required to continue in /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 189
+Stack Trace:
+- ROOT/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php:132
+- CORE/src/Event/EventManager.php:331
+- CORE/src/Event/EventManager.php:309
+- CORE/src/Event/EventDispatcherTrait.php:88
+- CORE/src/Controller/Controller.php:607
+- CORE/src/Controller/ControllerFactory.php:156
+- CORE/src/Controller/ControllerFactory.php:141
+- CORE/src/Http/BaseApplication.php:362
+- CORE/src/Http/Runner.php:86
+- CORE/src/Http/Middleware/CsrfProtectionMiddleware.php:169
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Middleware/BodyParserMiddleware.php:157
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/AssetMiddleware.php:69
+- CORE/src/Http/Runner.php:82
+- CORE/src/Error/Middleware/ErrorHandlerMiddleware.php:115
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:107
+- CORE/src/Http/Runner.php:82
+- CORE/src/Routing/Middleware/RoutingMiddleware.php:118
+- CORE/src/Http/Runner.php:82
+- ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- CORE/src/Http/Runner.php:82
+- CORE/src/Http/Runner.php:60
+- CORE/src/Http/Server.php:104
+- ROOT/webroot/index.php:37
+- /Users/ishaq/.composer/vendor/laravel/valet/server.php:110
+- [main]:
+
+Request URL: /users/dashboard
+Client IP: 127.0.0.1

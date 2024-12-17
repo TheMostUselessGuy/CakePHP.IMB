@@ -15,6 +15,7 @@
                 ['confirm' => __('Voulez-vous vraiment supprimer l\'utilisateur avec l\'adresse e-mail : {0} ?', $user->email), 'class' => 'side-nav-item']
             ) ?>
             <?= $this->Html->link(__('Liste des utilisateurs'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+            <?= $this->Html->css(['sidebar']) ?>
         </div>
     </aside>
     <div class="column column-80">

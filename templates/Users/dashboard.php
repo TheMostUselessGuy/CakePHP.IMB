@@ -8,7 +8,7 @@ $authUser = $this->request->getAttribute('identity');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tableau de Bord</title>
-    <?= $this->Html->css(['normalize.min', 'milligram.min', 'fonts', 'cake', 'dashboard']) ?>
+    <?= $this->Html->css(['normalize.min', 'milligram.min', 'fonts', 'cake', 'dashboard', 'sidebar']) ?>
     <style>
         .sidebar {
             display: none;
@@ -34,6 +34,7 @@ $authUser = $this->request->getAttribute('identity');
     <script>
         const menuItems = [
             { text: 'Liste utilisateur', url: '<?= $this->Url->build(['controller' => 'Users', 'action' => 'index']); ?>' },
+            { text: 'Traqueur de Sommeil', url: '<?= $this->Url->build(['controller' => 'SleepTracker', 'action' => 'index']); ?>' },
             { text: 'Ajout utilisateur', url: '<?= $this->Url->build(['controller' => 'Users', 'action' => 'add']); ?>' },
             { text: 'Éditer utilisateur', url: '<?= $this->Url->build(['controller' => 'Users', 'action' => 'edit', 1]); ?>' },
             { text: 'Déconnexion', url: '<?= $this->Url->build(['controller' => 'Users', 'action' => 'logout']); ?>' }

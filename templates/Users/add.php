@@ -4,6 +4,8 @@
  * @var \App\Model\Entity\User $user
  */
 ?>
+            <?= $this->Html->css(['sidebar']) ?>
+
 <div class="row">
     <aside class="column">
         <div class="side-nav">

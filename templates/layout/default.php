@@ -8,7 +8,7 @@
 
     use Cake\Utility\Text;
 
-    $cakeDescription = 'CakePHP: the rapid development php framework';
+    $cakeDescription = 'Application PHP projet Ishaq';
     $authUser = $this->request->getAttribute('identity');
     ?>
     <!DOCTYPE html>

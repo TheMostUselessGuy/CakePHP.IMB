@@ -1,3 +1,5 @@
+<?= $this->Html->css(['sidebar']) ?>
+
 <div class="users form">
     <?= $this->Flash->render() ?>
     <h3>Réinitialisation du mot de passe</h3>

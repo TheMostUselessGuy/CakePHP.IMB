@@ -212,3 +212,510 @@ Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.
 /Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
 [main]
 
+2024-12-10 10:06:16 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 10:23:08 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 10:23:18 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 10:28:07 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 10:28:13 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 10:28:22 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 10:28:56 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 10:29:05 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/sleep-tracker/add
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 12:37:39 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 12:39:19 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 13:03:11 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 13:04:16 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
+2024-12-10 13:08:26 debug: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line: 2649
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /sleep-tracker
+Referer URL: http://projetphp.test/users/dashboard
+Client IP: 127.0.0.1
+Trace:
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Core/functions.php, line 384
+/Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2717
+Cake\ORM\Table->invokeFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 2649
+Cake\ORM\Table->callFinder() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/ORM/Table.php, line 1296
+Cake\ORM\Table->find() /Users/ishaq/Outils/Valet/Sites/projetphp/src/Controller/SleepTrackerController.php, line 18
+App\Controller\SleepTrackerController->index() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 503
+Cake\Controller\Controller->invokeAction() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 107
+Authentication\Middleware\AuthenticationMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Users/ishaq/Outils/Valet/Sites/projetphp/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Users/ishaq/Outils/Valet/Sites/projetphp/webroot/index.php, line 37
+/Users/ishaq/.composer/vendor/laravel/valet/server.php /Users/ishaq/.composer/vendor/laravel/valet/server.php, line 110
+[main]
+
